@@ -1,0 +1,5 @@
+pages\DashboardPage.class
+pages\BasePage.class
+pages\UsersPage.class
+pages\BrowserCA_PrivacyErrorPage.class
+pages\LoginPage.class

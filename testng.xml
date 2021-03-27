@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestNGListeners"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:\DMA_TestAutomation\Selenium_UIAutomation">
+    <groups>
+        <dependencies>
+            <group name="login" depends-on="pError"/>
+            <group name="dashboard" depends-on="login"/>
+            <group name="logout" depends-on="login"/>
+        </dependencies>
+    </groups>
+
+        <classes>
+
+            <class name="Tests.LoginTests">
+                <methods>
+                    <include name="testPrivacyErrorPageNavigatesToLogin"/>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+
+            <class name="Tests.DashboardPageTests">
+                <methods>
+                    <include name="testNavBarFunctionality"/>
+                    <include name="testLogoutFunctionality"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

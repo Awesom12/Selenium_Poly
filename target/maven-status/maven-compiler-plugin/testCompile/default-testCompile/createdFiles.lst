@@ -1,0 +1,6 @@
+config\ConfigReader.class
+listeners\TestNGListeners.class
+Tests\LoginTests.class
+Tests\BaseTests.class
+Tests\DashboardPageTests.class
+utility\Screenshot.class

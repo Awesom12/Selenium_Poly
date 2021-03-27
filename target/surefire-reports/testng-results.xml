@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the Base url of DMA]]>
+    </line>
+    <line>
+      <![CDATA[C:\DMA_TestAutomation\Selenium_UIAutomation Test suite EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[testPrivacyErrorPageNavigatesToLogin Test case EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[Cert Privacy Error Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[testPrivacyErrorPageNavigatesToLogin Test case PASSED]]>
+    </line>
+    <line>
+      <![CDATA[testSuccessfulLogin Test case EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[On the Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Username is entered]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password]]>
+    </line>
+    <line>
+      <![CDATA[Logging in...]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully logged in to DMA]]>
+    </line>
+    <line>
+      <![CDATA[testSuccessfulLogin Test case PASSED]]>
+    </line>
+    <line>
+      <![CDATA[testNavBarFunctionality Test case EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User Menu is displayed on the navigation bar]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the users page...]]>
+    </line>
+    <line>
+      <![CDATA[Users Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User List grid is displayed on the Users Page]]>
+    </line>
+    <line>
+      <![CDATA[testNavBarFunctionality Test case PASSED]]>
+    </line>
+    <line>
+      <![CDATA[testLogoutFunctionality Test case EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[testLogoutFunctionality Test case PASSED]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-25T11:35:22 MDT" name="All Test Suite" finished-at="2021-03-25T11:35:34 MDT" duration-ms="11732">
+    <groups>
+      <group name="logout">
+        <method signature="DashboardPageTests.testLogoutFunctionality()[pri:2, instance:Tests.DashboardPageTests@71a794e5]" name="testLogoutFunctionality" class="Tests.DashboardPageTests"/>
+      </group> <!-- logout -->
+      <group name="pError">
+        <method signature="LoginTests.testPrivacyErrorPageNavigatesToLogin()[pri:1, instance:Tests.LoginTests@7fad8c79]" name="testPrivacyErrorPageNavigatesToLogin" class="Tests.LoginTests"/>
+      </group> <!-- pError -->
+      <group name="login">
+        <method signature="LoginTests.testSuccessfulLogin()[pri:2, instance:Tests.LoginTests@7fad8c79]" name="testSuccessfulLogin" class="Tests.LoginTests"/>
+      </group> <!-- login -->
+      <group name="dashboard">
+        <method signature="DashboardPageTests.testNavBarFunctionality()[pri:1, instance:Tests.DashboardPageTests@71a794e5]" name="testNavBarFunctionality" class="Tests.DashboardPageTests"/>
+      </group> <!-- dashboard -->
+    </groups>
+    <test started-at="2021-03-25T11:35:22 MDT" name="C:\DMA_TestAutomation\Selenium_UIAutomation" finished-at="2021-03-25T11:35:34 MDT" duration-ms="11732">
+      <class name="Tests.DashboardPageTests">
+        <test-method signature="testNavBarFunctionality()[pri:1, instance:Tests.DashboardPageTests@71a794e5]" started-at="2021-03-25T11:35:32 MDT" name="testNavBarFunctionality" description="This test verifies if User List Grid is displayed on the users page" depends-on-groups="login, login" finished-at="2021-03-25T11:35:33 MDT" duration-ms="526" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testNavBarFunctionality Test case EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User Menu is displayed on the navigation bar]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the users page...]]>
+            </line>
+            <line>
+              <![CDATA[Users Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User List grid is displayed on the Users Page]]>
+            </line>
+            <line>
+              <![CDATA[testNavBarFunctionality Test case PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNavBarFunctionality -->
+        <test-method is-config="true" signature="generateExtentReportWithLogs(org.testng.ITestResult)[pri:0, instance:Tests.DashboardPageTests@71a794e5]" started-at="2021-03-25T11:35:33 MDT" name="generateExtentReportWithLogs" finished-at="2021-03-25T11:35:33 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavBarFunctionality status=SUCCESS method=DashboardPageTests.testNavBarFunctionality()[pri:1, instance:Tests.DashboardPageTests@71a794e5] output=testNavBarFunctionality Test case EXECUTION STARTED]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReportWithLogs -->
+        <test-method signature="testLogoutFunctionality()[pri:2, instance:Tests.DashboardPageTests@71a794e5]" started-at="2021-03-25T11:35:33 MDT" name="testLogoutFunctionality" description="This test verifies if the user can logout successfully and the login panel gets displayed after logging out" depends-on-groups="login, login" finished-at="2021-03-25T11:35:34 MDT" duration-ms="685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testLogoutFunctionality Test case EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[testLogoutFunctionality Test case PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogoutFunctionality -->
+        <test-method is-config="true" signature="generateExtentReportWithLogs(org.testng.ITestResult)[pri:0, instance:Tests.DashboardPageTests@71a794e5]" started-at="2021-03-25T11:35:34 MDT" name="generateExtentReportWithLogs" finished-at="2021-03-25T11:35:34 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogoutFunctionality status=SUCCESS method=DashboardPageTests.testLogoutFunctionality()[pri:2, instance:Tests.DashboardPageTests@71a794e5] output=testLogoutFunctionality Test case EXECUTION STARTED]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReportWithLogs -->
+      </class> <!-- Tests.DashboardPageTests -->
+      <class name="Tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:15 MDT" name="setUp" finished-at="2021-03-25T11:35:22 MDT" duration-ms="7065" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the Base url of DMA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setExtentReports()[pri:0, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:22 MDT" name="setExtentReports" finished-at="2021-03-25T11:35:22 MDT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReports -->
+        <test-method signature="testPrivacyErrorPageNavigatesToLogin()[pri:1, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:22 MDT" name="testPrivacyErrorPageNavigatesToLogin" description="This test case if successful takes us to the login Page" finished-at="2021-03-25T11:35:22 MDT" duration-ms="88" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testPrivacyErrorPageNavigatesToLogin Test case EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[Cert Privacy Error Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[testPrivacyErrorPageNavigatesToLogin Test case PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPrivacyErrorPageNavigatesToLogin -->
+        <test-method is-config="true" signature="generateExtentReportWithLogs(org.testng.ITestResult)[pri:0, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:22 MDT" name="generateExtentReportWithLogs" finished-at="2021-03-25T11:35:22 MDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPrivacyErrorPageNavigatesToLogin status=SUCCESS method=LoginTests.testPrivacyErrorPageNavigatesToLogin()[pri:1, instance:Tests.LoginTests@7fad8c79] output=testPrivacyErrorPageNavigatesToLogin Test case EXECUTION STARTED]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReportWithLogs -->
+        <test-method signature="testSuccessfulLogin()[pri:2, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:22 MDT" name="testSuccessfulLogin" description="This test case if successful takes us to the dashboard Page" depends-on-groups="pError, pError" finished-at="2021-03-25T11:35:32 MDT" duration-ms="10323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testSuccessfulLogin Test case EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[On the Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Username is entered]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password]]>
+            </line>
+            <line>
+              <![CDATA[Logging in...]]>
+            </line>
+            <line>
+              <![CDATA[User is successfully logged in to DMA]]>
+            </line>
+            <line>
+              <![CDATA[testSuccessfulLogin Test case PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="generateExtentReportWithLogs(org.testng.ITestResult)[pri:0, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:32 MDT" name="generateExtentReportWithLogs" finished-at="2021-03-25T11:35:32 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTests.testSuccessfulLogin()[pri:2, instance:Tests.LoginTests@7fad8c79] output=testSuccessfulLogin Test case EXECUTION STARTED]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReportWithLogs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTests@7fad8c79]" started-at="2021-03-25T11:35:34 MDT" name="tearDown" finished-at="2021-03-25T11:35:34 MDT" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginTests -->
+    </test> <!-- C:\DMA_TestAutomation\Selenium_UIAutomation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
